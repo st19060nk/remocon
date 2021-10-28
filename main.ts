@@ -1,6 +1,3 @@
-input.onPinPressed(TouchPin.P0, function () {
-    radio.sendNumber(3)
-})
 input.onButtonPressed(Button.A, function () {
     radio.sendNumber(0)
 })
